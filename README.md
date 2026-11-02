@@ -4,11 +4,26 @@ Symptom-based classifier comparison with text matching and information retrieval
 
 **Python · scikit-learn · XGBoost · Sentence Transformers · GPT-2**
 
+[![Documentation checks](https://github.com/kedharkota/Healthcare-Recommendation-System/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/Healthcare-Recommendation-System/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Healthcare Recommendation Research Prototype: project preview](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Healthcare Recommendation Research Prototype: project preview" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory workflow diagram based on the committed project materials.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Symptom-classifier comparison and text matching |
+| **Start here** | [ML.ipynb](ML.ipynb) |
+| **Run mode** | Jupyter research prototype; external CSVs and code completion needed |
+| **Explore** | Model-comparison code, matching routines, and information lookup |
 
 ## Overview
 
@@ -49,6 +64,9 @@ The notebook includes classifier-evaluation code, but this README does not claim
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -56,6 +74,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Cross-Lingual Sentiment Analysis](https://github.com/kedharkota/cross-lingual-sentiment-analysis)
+- [Cardiac Ultrasound Segmentation](https://github.com/kedharkota/-Heart-Murmur-)
 
 ---
 
